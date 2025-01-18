@@ -102,6 +102,6 @@ Hash: 81h238
 - **Stopserver** para detener la compartición de archivos
 
 ## 👨‍💻 Autores
-- **Eva Pina Dubovtseva** (@eva-pd)
-- **Ismel Alejandro Oquendo Rodríguez** (@ismel-ao)
+- @evaapinaa
+- @OkeV2
 
