@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>94.0</x>
+			<y>271.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>341.0</x>
+			<y>272.0</y>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>rcv(AMBIGUOUS_HASH)</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>snd(DOWNLOAD_REQUEST)</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>rcv(FILE_NOT_FOUND)</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>rcv(DOWNLOAD_REQUEST)</read>
+		</transition>
+	</automaton>
+</structure>

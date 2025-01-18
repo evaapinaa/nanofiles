@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>135.0</x>
+			<y>192.0</y>
+			<label>LISTENING</label>
+			<initial/>
+			<final/>
+		</state>
+		<state id="1" name="q1">
+			<x>421.0</x>
+			<y>193.0</y>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>rcv(DOWNLOAD_REQUEST)</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>snd(AMBIGUOUS_HASH)</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>snd(FILE_NOT_FOUND)</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<read>snd(DOWNLOAD_RESPONSE)</read>
+		</transition>
+	</automaton>
+</structure>
