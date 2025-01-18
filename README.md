@@ -1,6 +1,5 @@
-# nanoFiles - Redes de Comunicaciones
+#  NanoFiles - Redes de Comunicaciones
 
-![NanoFiles](https://via.placeholder.com/600x200.png?text=nanoFiles+Project)
 
 ## 📌 Descripción
 NanoFiles es un sistema de compartición y transferencia de ficheros desarrollado en **Java**. Implementa un protocolo de comunicación basado en **UDP** para interactuar con el directorio y un protocolo confiable **TCP** para la transferencia de archivos entre pares (*peers*).
