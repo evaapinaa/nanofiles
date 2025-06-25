@@ -17,58 +17,37 @@ NanoFiles es un sistema de compartición y transferencia de ficheros desarrollad
  ┣ 📂 src/es/um/redes/nanoFiles
  ┃ ┣ 📂 application
  ┃ ┃ ┣ 📜 Directory.java
- ┃ ┃ ┣ 📜 Directory.class
  ┃ ┃ ┣ 📜 NanoFiles.java
- ┃ ┃ ┣ 📜 NanoFiles.class
  ┃ ┣ 📂 logic
  ┃ ┃ ┣ 📜 NFController.java
- ┃ ┃ ┣ 📜 NFController.class
  ┃ ┃ ┣ 📜 NFControllerLogicDir.java
- ┃ ┃ ┣ 📜 NFControllerLogicDir.class
  ┃ ┃ ┣ 📜 NFControllerLogicP2P.java
- ┃ ┃ ┣ 📜 NFControllerLogicP2P.class
  ┃ ┃ ┣ 📂 shell
  ┃ ┃ ┃ ┣ 📜 NFCommands.java
- ┃ ┃ ┃ ┣ 📜 NFCommands.class
  ┃ ┃ ┃ ┣ 📜 NFShell.java
- ┃ ┃ ┃ ┣ 📜 NFShell.class
  ┃ ┣ 📂 tcp
  ┃ ┃ ┣ 📂 client
  ┃ ┃ ┃ ┣ 📜 NFConnector.java
- ┃ ┃ ┃ ┣ 📜 NFConnector.class
  ┃ ┃ ┣ 📂 message
  ┃ ┃ ┃ ┣ 📜 PeerMessage.java
- ┃ ┃ ┃ ┣ 📜 PeerMessage.class
  ┃ ┃ ┃ ┣ 📜 PeerMessageOps.java
- ┃ ┃ ┃ ┣ 📜 PeerMessageOps.class
  ┃ ┃ ┣ 📂 server
  ┃ ┃ ┃ ┣ 📜 NFServer.java
- ┃ ┃ ┃ ┣ 📜 NFServer.class
  ┃ ┃ ┃ ┣ 📜 NFServerComm.java
- ┃ ┃ ┃ ┣ 📜 NFServerComm.class
  ┃ ┃ ┃ ┣ 📜 NFServerSimple.java
- ┃ ┃ ┃ ┣ 📜 NFServerSimple.class
  ┃ ┃ ┃ ┣ 📜 NFServerThread.java
- ┃ ┃ ┃ ┣ 📜 NFServerThread.class
  ┃ ┣ 📂 udp
  ┃ ┃ ┣ 📂 client
  ┃ ┃ ┃ ┣ 📜 DirectoryConnector.java
- ┃ ┃ ┃ ┣ 📜 DirectoryConnector.class
  ┃ ┃ ┣ 📂 message
  ┃ ┃ ┃ ┣ 📜 DirMessage.java
- ┃ ┃ ┃ ┣ 📜 DirMessage.class
  ┃ ┃ ┃ ┣ 📜 DirMessageOps.java
- ┃ ┃ ┃ ┣ 📜 DirMessageOps.class
  ┃ ┃ ┣ 📂 server
  ┃ ┃ ┃ ┣ 📜 NFDirectoryServer.java
- ┃ ┃ ┃ ┣ 📜 NFDirectoryServer.class
  ┃ ┣ 📂 util
  ┃ ┃ ┃ ┣ 📜 FileDatabase.java
- ┃ ┃ ┃ ┣ 📜 FileDatabase.class
  ┃ ┃ ┃ ┣ 📜 FileDigest.java
- ┃ ┃ ┃ ┣ 📜 FileDigest.class
  ┃ ┃ ┃ ┣ 📜 FileInfo.java
- ┃ ┃ ┃ ┣ 📜 FileInfo.class
 ```
 
 
